@@ -1,0 +1,68 @@
+@use "../constant" as *;
+
+.feature-item{
+    opacity: 0;
+    transform: translate(0, 50px);
+
+    transition: all 500ms ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    
+    img{
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .illustration{
+        display: block;
+        flex:1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .item-description{
+        flex:2;
+        margin: 0 40px;
+    }
+
+    &:nth-child(even){
+        .illustration{
+            order: 2;
+        }
+
+        .item-description{
+            order: 1;
+        }
+    }
+
+    @media screen and (max-width:$tablet-width) {
+        .illustration{
+            flex:2;
+        }
+        .item-description{
+            flex:3;
+        }
+    }
+
+    @media screen and (max-width:$phone-width) {
+        flex-direction: column;
+
+        .illustration{
+            flex:auto;
+            order: 1 !important;
+        }
+        .item-description{
+            flex:auto;
+            order: 1 !important;
+            margin: 0;
+        }
+    }
+
+}
+
+.show{
+    opacity: 1;
+    transform: translate(0, 0);
+}

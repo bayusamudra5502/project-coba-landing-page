@@ -1,0 +1,20 @@
+{
+  "name": "project-coba-landing-page",
+  "version": "1.0.0",
+  "description": "Ini adalah tugas akhir dari dasar pemrograman Web dicoding.",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch assets/scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayusamudra5502/project-coba-landing-page.git"
+  },
+  "keywords": [],
+  "author": "Bayu Samudra <bayusamudra.55.02.com@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bayusamudra5502/project-coba-landing-page/issues"
+  },
+  "homepage": "https://github.com/bayusamudra5502/project-coba-landing-page#readme"
+}

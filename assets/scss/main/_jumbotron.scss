@@ -1,0 +1,34 @@
+@use "../constant" as *;
+
+.jumbotron {
+    margin-top: 70px;
+    background-color: $warna-pink-latar;
+    padding: 50px 0;
+
+    .btn {
+        margin-top: 20px;
+    }
+
+    img {
+        height: 200px;
+    }
+
+    @media screen and (max-width: $tablet-width) {
+        img {
+            height: 130px;
+        }
+    }
+
+    @media screen and (max-width: $phone-width) {
+        img {
+            display: none;
+        }
+
+        text-align: center;
+
+        .container {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}

@@ -1,7 +1,11 @@
+@use "constant" as *;
+
 header{
     background-color: white;
     width: 100vw;
     align-items: center;
+    position: fixed;
+    z-index: 10;
 }
 
 header .container{
@@ -28,13 +32,14 @@ header .container{
 .logo-name{
     font-family: 'Reem Kufi', sans-serif;
     font-size: 1.25rem;
-    color: #E75A51;
+    color: $warna-merah-logo;
 }
 
 nav li{
     display: inline-block;
     border-radius: 10px;
     cursor: pointer;
+    font-size: .9rem;
     padding: 0 10px 0 20px;
     transition: background-color 250ms ease-in-out;
     position: relative;
@@ -80,12 +85,12 @@ nav li a{
 }
 
 nav li:hover{
-    background-color: #FDE5E2;
+    background-color: $warna-hover-menu;
     font-weight: bold;
 }
 
 nav li:hover::before{
-    background-color: #cc0047;
+    background-color: $warna-merah-hover;
 }
 
 nav .btn {
@@ -96,7 +101,7 @@ nav .btn {
     display: none;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:$phone-width) {
     header .menu{
         display: block;
     }

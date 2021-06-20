@@ -1,0 +1,128 @@
+@use "../constant" as *;
+
+.wrapper-kelas {
+    background-color: $warna-pink-latar;
+    padding-top: 20px;
+    scroll-margin-top: 20px;
+}
+
+.slider-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+.left-button{
+    left: 15px;
+    position: absolute;
+}
+
+.right-button{
+    right: 10px;
+    position: absolute;
+}
+
+.slider {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 30px;
+    padding: 0 10px;
+}
+
+.card-container {
+    margin-bottom: 1rem;
+    display: flex;
+    width: fit-content;
+    padding: 10px 5px;
+    box-sizing: content-box;
+    transition: transform 500ms ease-in-out;
+}
+
+.left-button,
+.right-button {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 10px;
+    top: calc(50% - 60px);
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.kelas {
+    width: 350px;
+    min-width: 350px;
+    min-height: 650px;
+    text-align: center;
+    margin-right: 40px;
+
+    .class-img {
+        height: 300px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .class-description {
+        font-size: 1em;
+        padding: 25px;
+        font-size: 0.9em;
+
+        @media screen and (max-width: $tablet-width) {
+            font-size: 1em;
+        }
+    }
+
+    @media screen and (max-width: $phone-width) {
+        width: 300px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: $phone-width) {
+    .left-button,
+    .right-button {
+        width: 40px;
+        height: 40px;
+        padding: 6px;
+    }
+
+    .slider {
+        overflow-x: hidden;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+
+.kelas-0 {
+    background-image: url("../img/kelas-web-101.jpg");
+}
+.kelas-1 {
+    background-image: url("../img/kelas-HTML.jpg");
+}
+.kelas-2 {
+    background-image: url("../img/kelas-CSS.jpg");
+}
+.kelas-3 {
+    background-image: url("../img/kelas-JS.jpg");
+}
+.kelas-4 {
+    background-image: url("../img/kelas-web-design-101.jpg");
+}
+.kelas-5 {
+    background-image: url("../img/kelas-UI-UX.jpg");
+}

@@ -1,0 +1,53 @@
+@use "../constant" as *;
+
+#testimoni .slider{
+    flex-direction: row;
+    display: flex;
+    width: fit-content;
+    transition: transform 500ms ease-in-out;
+    flex-direction: row;
+}
+
+.card.testimoni{
+    margin: 10px;
+    min-width: 500px;
+    flex-basis: 500px;
+    height: fit-content;
+    background-color: hsl(0, 0%, 97%);
+    display: flex;
+    padding: 25px;
+    align-items: center;
+
+    .pictute-profile{
+        margin: 25px;
+
+        img{
+            border-radius: 50%;
+            width: 60px;
+        }
+    }
+
+    .content{
+        padding: 0;
+        margin: 5px 10px;
+        width: fit-content;
+
+        .nama{
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        .pesan{
+            margin-top: 10px;
+            font-size: 0.9em;
+            color:hsl(0, 0%, 40%);
+            line-height: 1.4;
+        }
+    }
+
+    @media screen and (max-width:$phone-width) {
+        flex-direction: column;
+        min-width: 300px;
+        text-align: center;
+    }
+}

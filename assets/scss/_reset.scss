@@ -1,3 +1,5 @@
+@use "constant" as *;
+
 * {
     box-sizing: border-box;
 }
@@ -5,4 +7,12 @@
 html, body{
     padding: 0;
     margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+
+    @media screen and (max-width: $tablet-width) {
+        font-size: 16px;
+    }
+
+    scroll-behavior: smooth;
 }
