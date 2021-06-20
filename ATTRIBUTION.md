@@ -13,3 +13,4 @@ Berikut ini adalah sumber aset yang digunakan pada proyek ini:
 * [Gambar Seorang Lelaki oleh bruce mars](https://unsplash.com/photos/8YG31Xn4dSw)
 * [Gambar oleh Linkedln Sales Solutions](https://unsplash.com/photos/pAtA8xe_iVM)
 * [Gambar oleh Austin Distel](https://unsplash.com/photos/7uoMmzPd2JA)
+4. Icon Monster - Lisensi : https://iconmonstr.com/license/

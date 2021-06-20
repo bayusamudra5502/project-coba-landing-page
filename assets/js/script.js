@@ -6,6 +6,8 @@ const leftSliderButton = document.querySelector(".left-button")
 const rightSliderButton = document.querySelector(".right-button")
 const cardContainer = document.querySelector(".card-container")
 const daftarPertanyaan = document.querySelectorAll(".set-pertanyaan")
+const testimoniSlider = document.querySelector("#testimoni .slider");
+
 
 function toggleMenu() {
     if (screen.width <= 600) {
@@ -59,9 +61,7 @@ function cardSlider(toRight = true) {
     cardContainer.style.transform = `translateX(${cardPosition}px)`
 }
 
-window.addEventListener("load", () => {
-    const testimoniSlider = document.querySelector("#testimoni .slider");
-    
+window.addEventListener("load", () => {    
     let sliderPos = 0;
     let isLast = false;
     

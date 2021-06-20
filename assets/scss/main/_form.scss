@@ -1,0 +1,58 @@
+@use "../constant" as *;
+
+.form-container{
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (max-width: $phone-width) {
+        img{
+            display: none;
+        }
+
+        padding: 0;
+    }
+
+    img {
+        width: 300px;
+        height: auto;
+    }
+
+    form {
+        max-width: 400px;
+        width: 100%;
+
+        label{
+            display: block;
+            font-size: .8em;
+            color: $warna-merah-logo;
+            margin-bottom: 5px;
+        }
+
+        .form-component{
+            margin-bottom: 15px;
+        }
+
+        input{
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: hsl(0, 0%, 90%);
+            border: 0;
+        }
+
+        button.btn{
+            border: 0;
+            padding: 0 20px;
+        }
+
+        textarea{
+            width: 100%;
+            height: 8em;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: hsl(0, 0%, 90%);
+            border: 0;
+            font-family: "Roboto", sans-serif;
+        }
+    }
+}
