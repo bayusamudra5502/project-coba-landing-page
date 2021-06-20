@@ -601,10 +601,6 @@ nav .btn {
   font-family: "Roboto", sans-serif;
 }
 
-#author {
-  background-color: #FFEFE5;
-}
-
 .author {
   padding: 30px;
   display: flex;
@@ -691,7 +687,7 @@ nav .btn {
 footer {
   padding: 20px;
   text-align: center;
-  background-color: #F26344;
+  background-color: #cc0047;
   color: white;
 }
 
