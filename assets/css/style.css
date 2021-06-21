@@ -89,6 +89,7 @@ body {
 
 article.content, article.container {
   padding-left: 80px;
+  scroll-margin-top: 100px;
 }
 @media screen and (max-width: 600px) {
   article.content, article.container {

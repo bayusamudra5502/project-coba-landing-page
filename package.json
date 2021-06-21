@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/bayusamudra5502/project-coba-landing-page/issues"
   },
-  "homepage": "https://github.com/bayusamudra5502/project-coba-landing-page#readme"
+  "homepage": "https://github.com/bayusamudra5502/project-coba-landing-page#readme",
+  "devDependencies": {
+    "imagemin": "^8.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2"
+  }
 }
