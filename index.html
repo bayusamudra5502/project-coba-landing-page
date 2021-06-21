@@ -1,503 +1,456 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Cloudev - Platform Belajar Web Deevelopment</title>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloudev - Platform Belajar Web Development</title>
 
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Reem+Kufi&family=Roboto:wght@400;700&display=swap"
-            rel="stylesheet"
-        />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-        <link
-            rel="shortcut icon"
-            href="assets/img/logo/favicon.ico"
-            type="image/x-icon"
-        />
+    <link
+      rel="shortcut icon"
+      href="assets/img/logo/favicon.ico"
+      type="image/x-icon"
+    />
 
-        <link rel="stylesheet" href="assets/css/style.css" />
-    </head>
-    <body>
-        <header>
-            <div class="container">
-                <a class="logo" href="/">
-                    <img src="assets/img/logo/logo.png" alt="Logo Cloudev" />
-                    <div class="logo-name">Cloudev</div>
-                </a>
-                <div class="menu" id="menu">
-                    <img
-                        src="assets/img/menu.svg"
-                        alt="Menu Navigasi"
-                        id="menu-img"
-                    />
-                    <img
-                        src="assets/img/close.svg"
-                        alt="Tutup Navigasi"
-                        id="close-img"
-                        class="hide"
-                    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a class="logo" href="/">
+          <img src="assets/img/logo/logo.png" alt="Logo Cloudev" />
+          <div class="logo-name">Cloudev</div>
+        </a>
+        <div class="menu" id="menu">
+          <img src="assets/img/menu.svg" alt="Menu Navigasi" id="menu-img" />
+          <img
+            src="assets/img/close.svg"
+            alt="Tutup Navigasi"
+            id="close-img"
+            class="hide"
+          />
+        </div>
+        <div class="break"></div>
+        <nav>
+          <ul>
+            <li><a href="#kelas">Kelas</a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+            <li><a href="#qna">QnA</a></li>
+            <li class="btn">Login</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <article class="jumbotron">
+        <div class="container">
+          <img
+            src="assets/img/img-jumbotron.png"
+            alt="Belajar Web Development"
+          />
+          <div class="description">
+            <h1>Belajar membuat website dengan mudah dan cepat</h1>
+            <p>
+              Kami akan membantu anda mempelajari teknologi-teknologi terkini
+              yang berkaitan dengan web development secara intensif.
+            </p>
+            <a href="#kelas" class="btn">Daftar</a>
+          </div>
+        </div>
+      </article>
+      <article id="features" class="content">
+        <h2><a href="#features">Kenapa belajar di Cloudev?</a></h2>
+        <p>
+          Kami menyediakan beberapa fitur yang dapat membantu anda dalam
+          mempelajari web development, diantaranya adalah sebagai berikut.
+        </p>
+        <section class="feature-item">
+          <div class="illustration">
+            <img src="assets/img/feature-1.png" alt="Fitur 1" />
+          </div>
+          <div class="item-description">
+            <h3>Materi terbaru dan telah direview dengan para ahli</h3>
+            <p>
+              Materi yang berada di kelas ini telah direview dan ditelaah oleh
+              para ahli yang kompeten di bidangnya. Materi pun akan disesuaikan
+              dengan perkembangan teknologi terkini.
+            </p>
+          </div>
+        </section>
+        <section class="feature-item">
+          <div class="illustration">
+            <img src="assets/img/feature-2.png" alt="Fitur 2" />
+          </div>
+          <div class="item-description">
+            <h3>Project yang akan direview oleh ahli</h3>
+            <p>
+              Pada tiap kelas akan diadakan sebuah mini project yang akan
+              direview oleh para ahli dibidangnya. Hal ini akan membantu anda
+              lebih berkembang untuk membuat website yang lebih profesional.
+            </p>
+          </div>
+        </section>
+        <section class="feature-item">
+          <div class="illustration">
+            <img src="assets/img/feature-3.png" alt="Fitur 3" />
+          </div>
+          <div class="item-description">
+            <h3>Punya pertanyaaan? Kami akan bantu jawab</h3>
+            <p>
+              Staff ahli kami akan berusaha untuk selalu membantu dan menjawab
+              pertanyaan-pertanyaan anda dalam proses belajar di Cloudev.
+            </p>
+          </div>
+        </section>
+        <section class="feature-item">
+          <div class="illustration">
+            <img src="assets/img/feature-4.png" alt="Fitur 4" />
+          </div>
+          <div class="item-description">
+            <h3>Live Testing pada tiap kode</h3>
+            <p>
+              Anda akan dapat mengubah contoh kode yang kami berikan pada materi
+              agar dapat melihat lebih dalam dan bereksprolasi dengannya.
+            </p>
+          </div>
+        </section>
+        <section class="feature-item">
+          <div class="illustration">
+            <img src="assets/img/feature-5.png" alt="Fitur 5" />
+          </div>
+          <div class="item-description">
+            <h3>Latihan dan Quiz</h3>
+            <p>
+              Kami akan meyediakan latihan-latihan yang berkaitan dengan materi
+              yang anda pelajari baik secara teoritis dan praktik. Selain itu,
+              tiap materi dan kelas akan ada sebuah kuis dan ujian untuk
+              mengukur kemampuan anda.
+            </p>
+          </div>
+        </section>
+      </article>
+      <article class="wrapper" id="kelas">
+        <div class="content splitted">
+          <h2><a href="#kelas">Kelas di Cloudev</a></h2>
+          <p>
+            Kami menyediakan beberapa kelas yang dapat anda ambil untuk
+            mempelajari web development dan desain.
+          </p>
+        </div>
+        <div class="slider-container">
+          <div class="slider">
+            <div class="card-container">
+              <div class="card kelas">
+                <div class="class-img kelas-0"></div>
+                <div class="class-description">
+                  <h3>Kelas Web Development 101</h3>
+                  <p>
+                    Kelas ini ditujukan untuk anda yang ingin mempelajari kelas
+                    pembelajaran web development dasar secara cepat. Pada kelas
+                    ini, anda akan mempelajari dasar HTML, CSS, dan Javascript
+                    dasar hingga anda bisa membuat halaman web sederhana.
+                  </p>
+                  <a class="btn">Daftar</a>
                 </div>
-                <div class="break"></div>
-                <nav>
-                    <ul>
-                        <li><a href="#kelas">Kelas</a></li>
-                        <li><a href="#testimoni">Testimoni</a></li>
-                        <li><a href="#qna">QnA</a></li>
-                        <li class="btn">Login</li>
-                    </ul>
-                </nav>
+              </div>
+              <div class="card kelas">
+                <div class="class-img kelas-1"></div>
+                <div class="class-description">
+                  <h3>Kelas HTML</h3>
+                  <p>
+                    Kelas ini ditujukan untuk anda yang ingin serius untuk
+                    mempelajari dasar dari HTML. Pada kelas ini, anda akan akan
+                    mempelajari tag-tag HTML secara lengkap. Diharapkan anda
+                    telah mengikuti seri kelas Web Development 101.
+                  </p>
+                  <a class="btn">Daftar</a>
+                </div>
+              </div>
+              <div class="card kelas">
+                <div class="class-img kelas-2"></div>
+                <div class="class-description">
+                  <h3>Kelas CSS</h3>
+                  <p>
+                    Kelas ini ditujukan untuk anda yang ingin serius mendalami
+                    CSS. Pada kelas ini akan diberikan tips-tips yang bermanfaat
+                    dan teknologi yang dapat membantu anda dalam membuat
+                    tampilan web yang menarik. Diharapkan anda telah mengikuti
+                    kelas Web Development 101.
+                  </p>
+                  <a class="btn">Daftar</a>
+                </div>
+              </div>
+              <div class="card kelas">
+                <div class="class-img kelas-3"></div>
+                <div class="class-description">
+                  <h3>Kelas Javascript</h3>
+                  <p>
+                    Kelas ini ditujukan bagi anda yang ingin mendalami bahasa
+                    pemrograman Javascript untuk frontend. Pada kelas ini akan
+                    dibahas dimulai dari dasar-dasar javascript, javascript
+                    modern, ES6, DOM, dan lainnya. Diharapkan anda telah
+                    mengikuti kelas Web Development 101.
+                  </p>
+                  <a class="btn">Daftar</a>
+                </div>
+              </div>
+              <div class="card kelas">
+                <div class="class-img kelas-4"></div>
+                <div class="class-description">
+                  <h3>Kelas Web Design 101</h3>
+                  <p>
+                    Kelas ini merupakan kelas dasar untuk memulai karir anda
+                    dalam web design. Pada kelas ini akan dibahas mengenai dasar
+                    dan tahapan-tahapan dalam desain halaman web.
+                  </p>
+                  <a class="btn">Daftar</a>
+                </div>
+              </div>
+              <div class="card kelas">
+                <div class="class-img kelas-5"></div>
+                <div class="class-description">
+                  <h3>Kelas UI-UX</h3>
+                  <p>
+                    Kelas ini ditujukan bagi anda yang ingin lebih mendalami
+                    teknik-teknik dalam UI/UX. Pada kelas ini akan dipelajari
+                    tips-tips ampuh membuat halaman web yang baik dan bagus.
+                    Diharapkan anda telah memiliki dasar dari kelas Web Design
+                    101 sebelumnya
+                  </p>
+                  <a class="btn">Daftar</a>
+                </div>
+              </div>
             </div>
-        </header>
-        <main>
-            <article class="jumbotron">
-                <div class="container">
-                    <img
-                        src="assets/img/img-jumbotron.png"
-                        alt="Belajar Web Development"
-                    />
-                    <div class="description">
-                        <h1>Belajar membuat website dengan mudah dan cepat</h1>
-                        <p>
-                            Kami akan membantu anda mempelajari
-                            teknologi-teknologi terkini yang berkaitan dengan
-                            web development secara intensif.
-                        </p>
-                        <a href="#kelas" class="btn">Daftar</a>
-                    </div>
+          </div>
+          <a class="left-button btn">
+            <img src="assets/img/arrow-left.svg" alt="Left Arrow" />
+          </a>
+          <a class="right-button btn">
+            <img src="assets/img/arrow-right.svg" alt="Right Arrow" />
+          </a>
+        </div>
+      </article>
+      <article id="testimoni">
+        <div class="content splitted">
+          <h2>Testimoni</h2>
+          <p>Berikut ini adalah beberapa testimoni dari para lulusan kami.</p>
+        </div>
+        <div class="slider-container">
+          <div class="slider">
+            <div class="card testimoni">
+              <div class="pictute-profile">
+                <img src="assets/img/profile.jpg" alt="Foto Profil" />
+              </div>
+              <div class="content">
+                <div class="nama">Fulan bin Fulan</div>
+                <div class="pesan">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptas tenetur aliquid ipsam recusandae, repudiandae odit
+                  alias laboriosam illum similique officia, tempore enim cumque
+                  in tempora iure dolorem laudantium ad at?
                 </div>
-            </article>
-            <article id="features" class="content">
-                <h2><a href="#features">Kenapa belajar di Cloudev?</a></h2>
-                <p>
-                    Kami menyediakan beberapa fitur yang dapat membantu anda
-                    dalam mempelajari web development, diantaranya adalah
-                    sebagai berikut.
-                </p>
-                <section class="feature-item">
-                    <div class="illustration">
-                        <img src="assets/img/feature-1.png" alt="Fitur 1" />
-                    </div>
-                    <div class="item-description">
-                        <h3>
-                            Materi terbaru dan telah direview dengan para ahli
-                        </h3>
-                        <p>
-                            Materi yang berada di kelas ini telah direview dan
-                            ditelaah oleh para ahli yang kompeten di bidangnya.
-                            Materi pun akan disesuaikan dengan perkembangan
-                            teknologi terkini.
-                        </p>
-                    </div>
-                </section>
-                <section class="feature-item">
-                    <div class="illustration">
-                        <img src="assets/img/feature-2.png" alt="Fitur 2" />
-                    </div>
-                    <div class="item-description">
-                        <h3>Project yang akan direview oleh ahli</h3>
-                        <p>
-                            Pada tiap kelas akan diadakan sebuah mini project
-                            yang akan direview oleh para ahli dibidangnya. Hal
-                            ini akan membantu anda lebih berkembang untuk
-                            membuat website yang lebih profesional.
-                        </p>
-                    </div>
-                </section>
-                <section class="feature-item">
-                    <div class="illustration">
-                        <img src="assets/img/feature-3.png" alt="Fitur 3" />
-                    </div>
-                    <div class="item-description">
-                        <h3>Punya pertanyaaan? Kami akan bantu jawab</h3>
-                        <p>
-                            Staff ahli kami akan berusaha untuk selalu membantu
-                            dan menjawab pertanyaan-pertanyaan anda dalam proses
-                            belajar di Cloudev.
-                        </p>
-                    </div>
-                </section>
-                <section class="feature-item">
-                    <div class="illustration">
-                        <img src="assets/img/feature-4.png" alt="Fitur 4" />
-                    </div>
-                    <div class="item-description">
-                        <h3>Live Testing pada tiap kode</h3>
-                        <p>
-                            Anda akan dapat mengubah contoh kode yang kami
-                            berikan pada materi agar dapat melihat lebih dalam
-                            dan bereksprolasi dengannya.
-                        </p>
-                    </div>
-                </section>
-                <section class="feature-item">
-                    <div class="illustration">
-                        <img src="assets/img/feature-5.png" alt="Fitur 5" />
-                    </div>
-                    <div class="item-description">
-                        <h3>Latihan dan Quiz</h3>
-                        <p>
-                            Kami akan meyediakan latihan-latihan yang berkaitan
-                            dengan materi yang anda pelajari baik secara
-                            teoritis dan praktik. Selain itu, tiap materi dan
-                            kelas akan ada sebuah kuis dan ujian untuk mengukur
-                            kemampuan anda.
-                        </p>
-                    </div>
-                </section>
-            </article>
-            <div class="wrapper" id="kelas">
-                <article>
-                    <div class="content splitted">
-                        <h2><a href="#kelas">Kelas di Cloudev</a></h2>
-                        <p>
-                            Kami menyediakan beberapa kelas yang dapat anda
-                            ambil untuk mempelajari web development dan desain.
-                        </p>
-                    </div>
-                    <div class="slider-container">
-                        <div class="slider">
-                            <div class="card-container">
-                                <div class="card kelas">
-                                    <div class="class-img kelas-0"></div>
-                                    <div class="class-description">
-                                        <h3>Kelas Web Development 101</h3>
-                                        <p>
-                                            Kelas ini ditujukan untuk anda yang
-                                            ingin mempelajari kelas pembelajaran
-                                            web development dasar secara cepat.
-                                            Pada kelas ini, anda akan
-                                            mempelajari dasar HTML, CSS, dan
-                                            Javascript dasar hingga anda bisa
-                                            membuat halaman web sederhana.
-                                        </p>
-                                        <a class="btn">Daftar</a>
-                                    </div>
-                                </div>
-                                <div class="card kelas">
-                                    <div class="class-img kelas-1"></div>
-                                    <div class="class-description">
-                                        <h3>Kelas HTML</h3>
-                                        <p>
-                                            Kelas ini ditujukan untuk anda yang
-                                            ingin serius untuk mempelajari dasar
-                                            dari HTML. Pada kelas ini, anda akan
-                                            akan mempelajari tag-tag HTML secara
-                                            lengkap. Diharapkan anda telah
-                                            mengikuti seri kelas Web Development
-                                            101.
-                                        </p>
-                                        <a class="btn">Daftar</a>
-                                    </div>
-                                </div>
-                                <div class="card kelas">
-                                    <div class="class-img kelas-2"></div>
-                                    <div class="class-description">
-                                        <h3>Kelas CSS</h3>
-                                        <p>
-                                            Kelas ini ditujukan untuk anda yang
-                                            ingin serius mendalami CSS. Pada
-                                            kelas ini akan diberikan tips-tips
-                                            yang bermanfaat dan teknologi yang
-                                            dapat membantu anda dalam membuat
-                                            tampilan web yang menarik.
-                                            Diharapkan anda telah mengikuti
-                                            kelas Web Development 101.
-                                        </p>
-                                        <a class="btn">Daftar</a>
-                                    </div>
-                                </div>
-                                <div class="card kelas">
-                                    <div class="class-img kelas-3"></div>
-                                    <div class="class-description">
-                                        <h3>Kelas Javascript</h3>
-                                        <p>
-                                            Kelas ini ditujukan bagi anda yang
-                                            ingin mendalami bahasa pemrograman
-                                            Javascript untuk frontend. Pada
-                                            kelas ini akan dibahas dimulai dari
-                                            dasar-dasar javascript, javascript
-                                            modern, ES6, DOM, dan lainnya.
-                                            Diharapkan anda telah mengikuti
-                                            kelas Web Development 101.
-                                        </p>
-                                        <a class="btn">Daftar</a>
-                                    </div>
-                                </div>
-                                <div class="card kelas">
-                                    <div class="class-img kelas-4"></div>
-                                    <div class="class-description">
-                                        <h3>Kelas Web Design 101</h3>
-                                        <p>
-                                            Kelas ini merupakan kelas dasar
-                                            untuk memulai karir anda dalam web
-                                            design. Pada kelas ini akan dibahas
-                                            mengenai dasar dan tahapan-tahapan
-                                            dalam desain halaman web.
-                                        </p>
-                                        <a class="btn">Daftar</a>
-                                    </div>
-                                </div>
-                                <div class="card kelas">
-                                    <div class="class-img kelas-5"></div>
-                                    <div class="class-description">
-                                        <h3>Kelas UI-UX</h3>
-                                        <p>
-                                            Kelas ini ditujukan bagi anda yang
-                                            ingin lebih mendalami teknik-teknik
-                                            dalam UI/UX. Pada kelas ini akan
-                                            dipelajari tips-tips ampuh membuat
-                                            halaman web yang baik dan bagus.
-                                            Diharapkan anda telah memiliki dasar
-                                            dari kelas Web Design 101 sebelumnya
-                                        </p>
-                                        <a class="btn">Daftar</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="left-button btn">
-                            <img src="assets/img/arrow-left.svg" />
-                        </a>
-                        <a class="right-button btn">
-                            <img src="assets/img/arrow-right.svg" />
-                        </a>
-                    </div>
-                </article>
+              </div>
             </div>
-            <article id="testimoni">
-                <div class="content splitted">
-                    <h2>Testimoni</h2>
-                    <p>
-                        Berikut ini adalah beberapa testimoni dari para lulusan
-                        kami.
-                    </p>
+            <div class="card testimoni">
+              <div class="pictute-profile">
+                <img src="assets/img/profile2.jpg" alt="Foto Profil" />
+              </div>
+              <div class="content">
+                <div class="nama">Fulan bin Fulan</div>
+                <div class="pesan">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptas tenetur aliquid ipsam recusandae, repudiandae odit
+                  alias laboriosam illum similique officia, tempore enim cumque
+                  in tempora iure dolorem laudantium ad at?
                 </div>
-                <div class="slider-container">
-                    <div class="slider">
-                        <div class="card testimoni">
-                            <div class="pictute-profile">
-                                <img
-                                    src="assets/img/profile.jpg"
-                                    alt="Foto Profil"
-                                />
-                            </div>
-                            <div class="content">
-                                <div class="nama">Fulan bin Fulan</div>
-                                <div class="pesan">
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Voluptas tenetur aliquid
-                                    ipsam recusandae, repudiandae odit alias
-                                    laboriosam illum similique officia, tempore
-                                    enim cumque in tempora iure dolorem
-                                    laudantium ad at?
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card testimoni">
-                            <div class="pictute-profile">
-                                <img
-                                    src="assets/img/profile2.jpg"
-                                    alt="Foto Profil"
-                                />
-                            </div>
-                            <div class="content">
-                                <div class="nama">Fulan bin Fulan</div>
-                                <div class="pesan">
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Voluptas tenetur aliquid
-                                    ipsam recusandae, repudiandae odit alias
-                                    laboriosam illum similique officia, tempore
-                                    enim cumque in tempora iure dolorem
-                                    laudantium ad at?
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card testimoni">
-                            <div class="pictute-profile">
-                                <img
-                                    src="assets/img/profile3.jpg"
-                                    alt="Foto Profil"
-                                />
-                            </div>
-                            <div class="content">
-                                <div class="nama">Fulan bin Fulan</div>
-                                <div class="pesan">
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Voluptas tenetur aliquid
-                                    ipsam recusandae, repudiandae odit alias
-                                    laboriosam illum similique officia, tempore
-                                    enim cumque in tempora iure dolorem
-                                    laudantium ad at?
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card testimoni">
-                            <div class="pictute-profile">
-                                <img
-                                    src="assets/img/profile.jpg"
-                                    alt="Foto Profil"
-                                />
-                            </div>
-                            <div class="content">
-                                <div class="nama">Fulan bin Fulan</div>
-                                <div class="pesan">
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Voluptas tenetur aliquid
-                                    ipsam recusandae, repudiandae odit alias
-                                    laboriosam illum similique officia, tempore
-                                    enim cumque in tempora iure dolorem
-                                    laudantium ad at?
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card testimoni">
-                            <div class="pictute-profile">
-                                <img
-                                    src="assets/img/profile2.jpg"
-                                    alt="Foto Profil"
-                                />
-                            </div>
-                            <div class="content">
-                                <div class="nama">Fulan bin Fulan</div>
-                                <div class="pesan">
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Voluptas tenetur aliquid
-                                    ipsam recusandae, repudiandae odit alias
-                                    laboriosam illum similique officia, tempore
-                                    enim cumque in tempora iure dolorem
-                                    laudantium ad at?
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card testimoni">
-                            <div class="pictute-profile">
-                                <img
-                                    src="assets/img/profile3.jpg"
-                                    alt="Foto Profil"
-                                />
-                            </div>
-                            <div class="content">
-                                <div class="nama">Fulan bin Fulan</div>
-                                <div class="pesan">
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Voluptas tenetur aliquid
-                                    ipsam recusandae, repudiandae odit alias
-                                    laboriosam illum similique officia, tempore
-                                    enim cumque in tempora iure dolorem
-                                    laudantium ad at?
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            <div class="card testimoni">
+              <div class="pictute-profile">
+                <img src="assets/img/profile3.jpg" alt="Foto Profil" />
+              </div>
+              <div class="content">
+                <div class="nama">Fulan bin Fulan</div>
+                <div class="pesan">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptas tenetur aliquid ipsam recusandae, repudiandae odit
+                  alias laboriosam illum similique officia, tempore enim cumque
+                  in tempora iure dolorem laudantium ad at?
                 </div>
-            </article>
-            <article id="qna" class="content">
-                <h2>Pertanyaan Umum</h2>
-                <p>
-                    Berikut ini adalah pertanyaan-pertanyaan umum yang sering
-                    ditanyakan oleh orang-orang mengenai program ini
+              </div>
+            </div>
+            <div class="card testimoni">
+              <div class="pictute-profile">
+                <img src="assets/img/profile.jpg" alt="Foto Profil" />
+              </div>
+              <div class="content">
+                <div class="nama">Fulan bin Fulan</div>
+                <div class="pesan">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptas tenetur aliquid ipsam recusandae, repudiandae odit
+                  alias laboriosam illum similique officia, tempore enim cumque
+                  in tempora iure dolorem laudantium ad at?
+                </div>
+              </div>
+            </div>
+            <div class="card testimoni">
+              <div class="pictute-profile">
+                <img src="assets/img/profile2.jpg" alt="Foto Profil" />
+              </div>
+              <div class="content">
+                <div class="nama">Fulan bin Fulan</div>
+                <div class="pesan">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptas tenetur aliquid ipsam recusandae, repudiandae odit
+                  alias laboriosam illum similique officia, tempore enim cumque
+                  in tempora iure dolorem laudantium ad at?
+                </div>
+              </div>
+            </div>
+            <div class="card testimoni">
+              <div class="pictute-profile">
+                <img src="assets/img/profile3.jpg" alt="Foto Profil" />
+              </div>
+              <div class="content">
+                <div class="nama">Fulan bin Fulan</div>
+                <div class="pesan">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptas tenetur aliquid ipsam recusandae, repudiandae odit
+                  alias laboriosam illum similique officia, tempore enim cumque
+                  in tempora iure dolorem laudantium ad at?
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article id="qna" class="content">
+        <h2>Pertanyaan Umum</h2>
+        <p>
+          Berikut ini adalah pertanyaan-pertanyaan umum yang sering ditanyakan
+          oleh orang-orang mengenai program ini
+        </p>
+        <section class="set-pertanyaan">
+          <h3 class="pertanyaan">
+            Berapa biaya untuk mengikuti program ini?
+          </h3>
+          <div class="jawaban">
+            Program pembelajaran di Cloudev bersifat gratis. Anda tidak akan
+            dipungut biaya apapun untuk mengikuti program ini. Hanya saja akan
+            ada biaya komitmen sebesar Rp100.000 agar anda menyelesaikan program
+            ini dengan baik.
+          </div>
+        </section>
+        <section class="set-pertanyaan">
+          <h3 class="pertanyaan">
+            Apakah orang awam boleh mengikuti program ini?
+          </h3>
+          <div class="jawaban">
+            Tentu saja. Anda bisa mengikuti kelas 101 sebagai pijakan awal untuk
+            menyelam di dunia web development. Akan tetapi, jika anda ingin
+            mengikuti kelas yang lainnya, setidaknya anda telah memenuhhi
+            prasyarat kelas tersebut agar proses pembelajaran berlangsung
+            efektif.
+          </div>
+        </section>
+        <section class="set-pertanyaan">
+          <h3 class="pertanyaan">Berapa lamakah program ini berjalan?</h3>
+          <div class="jawaban">
+            Program ini akan dijalankan selama 1 bulan. Anda akan belajar secara
+            intensif oleh mentor-mentor berpengalaman agar anda memiliki
+            pemahaman yang
+            <em>fresh</em> mengenai web programming.
+          </div>
+        </section>
+        <section class="set-pertanyaan">
+          <h3 class="pertanyaan">
+            Apakah di akhir pembelajaran saya akan mendapatkan pekerjaan?
+          </h3>
+          <div class="jawaban">
+            Kami akan berusaha membantu anda mencari pekerjaan anda sebagai web
+            developer. Kami akan mempertemukan dengan rekan kerja kami sehingga
+            anda dapat mendapatkan pekerjaan yang anda inginkan.
+          </div>
+        </section>
+      </article>
+      <article id="contact" class="content">
+        <h2>Kontak Kami</h2>
+        <p>
+          Punya pertanyaan? Anda bisa menghubungi kami dengan mengisi form
+          berikut:
+        </p>
+        <div class="container form-container">
+          <img src="assets/img/contact.png" alt="Kontak" />
+          <form action="#" method="GET">
+            <div class="form-component">
+              <label for="nama">Nama</label>
+              <input
+                type="text"
+                id="nama"
+                placeholder="Massukan nama Anda"
+                name="nama"
+                required
+              />
+            </div>
+            <div class="form-component">
+              <label for="email"> Email </label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Massukan email Anda"
+                id="email"
+                required
+              />
+            </div>
+            <div class="form-component">
+              <label for="message">Pesan Anda</label>
+              <textarea
+                placeholder="Massukan pesan Anda"
+                name="message"
+                id="message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Kirim</button>
+          </form>
+        </div>
+      </article>
+      <aside id="author" class="wrapper">
+        <div class="content">
+          <h2>Tentang Saya</h2>
+          <div class="card author">
+            <div class="foto">
+              <img src="assets/img/foto-bayu.jpg" alt="Foto Profil Author" />
+            </div>
+            <div class="bio">
+              <h3>Bayu Samudra</h3>
+              <p class="role">Mahasiswa</p>
+
+              <div class="my-contact">
+                <p class="email">
+                  <a href="mailto:bayusamudra.55.02.com@gmail.com"
+                    >bayusamudra.55.02.com@gmail.com</a
+                  >
                 </p>
-                <section class="set-pertanyaan">
-                    <div class="pertanyaan">
-                        Berapa biaya untuk mengikuti program ini?
-                    </div>
-                    <div class="jawaban">
-                        Program pembelajaran di Cloudev bersifat gratis. Anda
-                        tidak akan dipungut biaya apapun untuk mengikuti program
-                        ini. Hanya saja akan ada biaya komitmen sebesar
-                        Rp100.000 agar anda menyelesaikan program ini dengan
-                        baik.
-                    </div>
-                </section>
-                <section class="set-pertanyaan">
-                    <div class="pertanyaan">
-                        Apakah orang awam boleh mengikuti program ini?
-                    </div>
-                    <div class="jawaban">
-                        Tentu saja. Anda bisa mengikuti kelas 101 sebagai
-                        pijakan awal untuk menyelam di dunia web development.
-                        Akan tetapi, jika anda ingin mengikuti kelas yang
-                        lainnya, setidaknya anda telah memenuhhi prasyarat kelas
-                        tersebut agar proses pembelajaran berlangsung efektif.
-                    </div>
-                </section>
-                <section class="set-pertanyaan">
-                    <div class="pertanyaan">
-                        Berapa lamakah program ini berjalan?
-                    </div>
-                    <div class="jawaban">
-                        Program ini akan dijalankan selama 1 bulan. Anda akan
-                        belajar secara intensif oleh mentor-mentor berpengalaman
-                        agar anda memiliki pemahaman yang
-                        <em>fresh</em> mengenai web programming.
-                    </div>
-                </section>
-                <section class="set-pertanyaan">
-                    <div class="pertanyaan">
-                        Apakah di akhir pembelajaran saya akan mendapatkan
-                        pekerjaan?
-                    </div>
-                    <div class="jawaban">
-                        Kami akan berusaha membantu anda mencari pekerjaan anda
-                        sebagai web developer. Kami akan mempertemukan dengan
-                        rekan kerja kami sehingga anda dapat mendapatkan
-                        pekerjaan yang anda inginkan.
-                    </div>
-                </section>
-            </article>
-            <article id="contact" class="content">
-                <h2>Kontak Kami</h2>
-                <p>Punya pertanyaan? Anda bisa menghubungi kami dengan mengisi form berikut:</p>
-                <div class="container form-container">
-                    <img src="assets/img/contact.png" alt="Kontak" />
-                    <form action="#" method="GET">
-                        <div class="form-component">
-                            <label for="nama">Nama</label>
-                            <input type="text" id="nama" placeholder="Massukan nama Anda" name="nama" required>
-                        </div>
-                        <div class="form-component">
-                            <label for="email">
-                                Email
-                            </label>
-                            <input type="email" name="email" placeholder="Massukan email Anda" id="email" required>
-                        </div>
-                        <div class="form-component">
-                            <label for="message">Pesan Anda</label>
-                            <textarea placeholder="Massukan pesan Anda" name="message" id="message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn">Kirim</button>
-                    </form>
-                </div>
-            </article>
-            <aside id="author" class="wrapper">
-                <div class="content">
-                    <h2>Tentang Saya</h2>
-                    <div class="card author">
-                        <div class="foto">
-                            <img src="assets/img/foto-bayu.jpg" />
-                        </div>
-                        <div class="bio">
-                            <h3>Bayu Samudra</h3>
-                            <p class="role">Mahasiswa</p>
+                <p class="web">
+                  <a href="https://bayusamudra.my.id">bayusamudra.my.id</a>
+                </p>
+                <p class="telegram">@bayusamudra5502</p>
+                <p class="instagram">@_bayu.samudra</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <footer>Dibuat oleh Bayu Samudra, 2021</footer>
 
-                            <div class="my-contact">
-                                <p class="email"><a href="mailto:bayusamudra.55.02.com@gmail.com">bayusamudra.55.02.com@gmail.com</a></p>
-                                <p class="web"><a href="https://bayusamudra.my.id">bayusamudra.my.id</a></p>
-                                <p class="telegram">@bayusamudra5502</p>
-                                <p class="instagram">@_bayu.samudra</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </aside>
-        </main>
-        <footer>
-            Dibuat oleh Bayu Samudra, 2021
-        </footer>
-
-        <script src="assets/js/script.js"></script>
-    </body>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
